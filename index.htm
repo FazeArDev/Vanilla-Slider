@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="slider">
+    <div class="slide">
+      <img
+      src="image/image1.jpg"
+      alt=""
+    />
+    </div>
+    <div class="slide">
+      <img
+      src="image/image2.jpg"
+      alt=""
+    />
+    </div>
+    <div class="slide">
+      <img
+      src="image/image3.jpg"
+      alt=""
+    />
+    </div>
+    <div class="slide">
+      <img
+      src="image/image4.jpg"
+      alt=""
+    />
+    </div>
+    <button class="btn btn-next"><span>&gt</span></button>
+    <button class="btn btn-prev"><span>&lt</span></button>
+    <div class="radio">
+      <span class="dot dot-1" onclick="radioSlide(0)"></span>
+      <span class="dot dot-2" onclick="radioSlide(1)"></span>
+      <span class="dot dot-3" onclick="radioSlide(2)"></span>
+      <span class="dot dot-4" onclick="radioSlide(3)"></span>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
